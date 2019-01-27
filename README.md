@@ -22,6 +22,7 @@ When launched:
 ## Touchbar Yeelight brightness slider
 ### What does it do
 Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
+
 ### Requirements
 * [Python 3 & pip](https://www.python.org/downloads/)
 
@@ -36,6 +37,7 @@ pip install yeelight
 * Open its Predefined Action
 * Insert the path of the `yeelight_bulb.py` file into the Applescript 
 
+---
 ## Other stuff
 * tip-tap trackpad gestures added. Switch between tabs in Safari
 * app switcher widget added to the Touchbar
