@@ -7,9 +7,9 @@
 When launched:
 * Activate macro support for external keyboard *(will add macros and shortcuts to this repo as soon as I'm convinced with their usefulness)*
 * Launch Final Cut Pro and set it to fullscreen
-* ~~Disable TrueTone on launch~~ now using Shifty
+* ~~Disable TrueTone on launch~~ now using [Shifty](https://shifty.natethompson.io/en/)
 
- When Final Cut Pro is active a new button gets added to the Touchbar. It can toggle TrueTone
+~~When Final Cut Pro is active a new button gets added to the Touchbar. It can toggle TrueTone~~ now using [Shifty](https://shifty.natethompson.io/en/)
 
 ### Requirements
 * [USB Overdrive](http://www.usboverdrive.com/USBOverdrive/News.html)
