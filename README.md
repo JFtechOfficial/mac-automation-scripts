@@ -1,12 +1,12 @@
 # mac_automation_scripts
-* install [BetterTouchTool](https://folivora.ai)
+* Install [BetterTouchTool](https://folivora.ai)
 * Import the `Default.bttpreset` file into BTT
 
 ## FCPX video editing setup
-### what does it do
+### What does it do
 When launched:
 * Activate macro support for external keyboard *(will add macros and shortcuts to this repo as soon as I'm convinced with their usefulness)*
-* Set Final Cut Pro to fullscreen
+* Launch Final Cut Pro and set it to fullscreen
 * Disable TrueTone on launch
 
  When Final Cut Pro is active a new button gets added to the Touchbar. It can toggle TrueTone
@@ -20,7 +20,7 @@ When launched:
 
 ---
 ## Touchbar Yeelight brightness slider
-### what does it do
+### What does it do
 Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 ### Requirements
 * [Python 3 & pip](https://www.python.org/downloads/)
@@ -32,8 +32,8 @@ Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 pip install yeelight
 ```
 * Insert the lightbulb IP address in the `yeelight_bulb.py` file
-* Open
-* Select the Custom Applescript Slider Widget in the Touchbar section and open the Predefined Action
+* Open BTT and aelect the Custom Applescript Slider Widget in the Touchbar section
+* Open its Predefined Action
 * Insert the path of the `yeelight_bulb.py` file into the Applescript 
 
 ## Other stuff
