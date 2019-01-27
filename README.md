@@ -1,6 +1,6 @@
 # mac_automation_scripts
 * install [BetterTouchTool](https://folivora.ai)
-* Import the .bttpreset file into BTT
+* Import the `Default.bttpreset` file into BTT
 
 ## FCPX video editing setup
 ### what does it do
