@@ -5,7 +5,7 @@
 ## FCPX video editing setup
 ### what does it do
 When launched:
-* Activate macro support for external keyboard
+* Activate macro support for external keyboard *(will add macros and shortcuts to this repo as soon as I'm convinced with their usefulness)*
 * Set Final Cut Pro to fullscreen
 * Disable TrueTone on launch
 
@@ -19,7 +19,7 @@ When launched:
 * Unzip the `Video Editing.zip` file and move its content to the Application folder
 
 ---
-## Yeelight brightness slider for the Touchbar
+## Touchbar Yeelight brightness slider
 ### what does it do
 Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 ### Requirements
