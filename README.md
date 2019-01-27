@@ -39,5 +39,5 @@ pip install yeelight
 
 ---
 ## Other stuff
-* Tip-Tap trackpad gestures added. Switch between tabs in Safari
+* TipTap trackpad gestures added. Switch between tabs in any app
 * App switcher widget added to the Touchbar
