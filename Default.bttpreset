@@ -1,0 +1,221 @@
+{
+  "BTTPresetName" : "Default",
+  "BTTPresetUUID" : "825D668C-7DAC-453C-A5B3-E16AD3E3A563",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Safari",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 114,
+          "BTTTriggerTypeDescription" : "TipTap Right (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "B41700B5-E95A-4454-847A-DAEE6787D500",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        },
+        {
+          "BTTTriggerType" : 113,
+          "BTTTriggerTypeDescription" : "TipTap Left (1 Finger Fix)",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,123",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "3D08B2DC-07EB-48C7-9EEF-1ED7AF6304CA",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 643,
+          "BTTTriggerTypeDescription" : "Named Trigger: VIDEO_EDITING",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 257,
+          "BTTPredefinedActionName" : "Toggle True Tone (only on supported systems)",
+          "BTTTriggerName" : "VIDEO_EDITING",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "E6C1CC63-A658-4C5F-A49A-94805954DB7A",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+              "BTTPredefinedActionType" : 128,
+              "BTTPredefinedActionName" : "Send Shortcut to Specific App",
+              "BTTShortcutApp" : "\/Applications\/Final Cut Pro.app",
+              "BTTShortcutSwitchToAppFirst" : "1",
+              "BTTShortcutAppUnderCursor" : "com.apple.FinalCut",
+              "BTTShortcutToSend" : "59,55,3",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "AD9B8057-55E9-4990-BD22-ED54D01A7D39",
+              "BTTEnabled" : 1,
+              "BTTModifierMode" : 0,
+              "BTTAlternateModifierKeys" : 0,
+              "BTTOrder" : 0,
+              "BTTDisplayOrder" : 0,
+              "BTTMergeIntoTouchBarGroups" : 0
+            },
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+              "BTTPredefinedActionType" : 201,
+              "BTTPredefinedActionName" : "Toggle Night Shift",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "5CCD979D-1AAF-45B9-B47F-0C97B6A4D6C3",
+              "BTTEnabled" : 1,
+              "BTTModifierMode" : 0,
+              "BTTAlternateModifierKeys" : 0,
+              "BTTOrder" : 1,
+              "BTTDisplayOrder" : 0,
+              "BTTMergeIntoTouchBarGroups" : 0
+            }
+          ]
+        },
+        {
+          "BTTTriggerType" : 638,
+          "BTTTriggerTypeDescription" : "Custom Apple Script Slider Widget",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 195,
+          "BTTPredefinedActionName" : "Run Apple Script (async in background)",
+          "BTTInlineAppleScript" : "on bttWidgetSliderMoved(sliderValue)\r\t\r\tdo shell script \"\/usr\/local\/bin\/python3 \/YOUR_PATH\/yeelight_bulb.py \" & sliderValue\r\t\rend bttWidgetSliderMoved",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "1726AD82-686F-4070-8849-1424AA461856",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarButtonColor" : "0.000000, 150.399228, 255.000000, 255.000000",
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+            "BTTTouchBarButtonCornerRadius" : 6,
+            "BTTTouchBarScriptUpdateInterval" : 0,
+            "BTTTBWidgetWidth" : 200,
+            "BTTTouchBarAppleScriptString" : "return \"0.5\"",
+            "BTTTBDrawKnobWithoutPadding" : false,
+            "BTTTouchBarSliderDrawKnobIconWhite" : false,
+            "BTTTouchBarSliderTriggerPercentage" : 0.050000000000000003,
+            "BTTTouchBarFreeSpaceAfterButton" : 5,
+            "BTTTouchBarSliderDrawKnobBackground" : true,
+            "BTTTouchBarShowRightIconForSlider" : true,
+            "BTTTouchBarAppleScriptUsePath" : 0,
+            "BTTTouchBarShowLeftIconForSlider" : true,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarItemIconHeight" : 22
+          }
+        },
+        {
+          "BTTTriggerType" : 635,
+          "BTTTriggerTypeDescription" : "App Switcher Widget",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "49F8CFE8-F0F5-4CC6-8A1D-122E5B293AF5",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0,
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTTouchBarFreeSpaceAfterButton" : 5,
+            "BTTTouchBarItemIconHeight" : 22,
+            "BTTTouchBarButtonCornerRadius" : 6,
+            "BTTTouchBarItemPlacement" : 1,
+            "BTTTouchBarButtonColor" : "221.000000, 0.000000, 0.000000, 255.000000",
+            "BTTTBWidgetWidth" : 300,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000"
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.FinalCut",
+      "BTTAppName" : "Final Cut Pro",
+      "BTTTriggers" : [
+        {
+          "BTTTouchBarButtonName" : "💡",
+          "BTTTriggerType" : 629,
+          "BTTTriggerTypeDescription" : "Touch Bar button",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 257,
+          "BTTPredefinedActionName" : "Toggle True Tone (only on supported systems)",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "B2F93803-5051-41C6-94B5-7CF9D58EC05A",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 0,
+          "BTTDisplayOrder" : 1,
+          "BTTMergeIntoTouchBarGroups" : 0,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+              "BTTPredefinedActionType" : 201,
+              "BTTPredefinedActionName" : "Toggle Night Shift",
+              "BTTEnabled2" : 1,
+              "BTTUUID" : "C7E1B446-5AAC-4D5D-B3AD-2CF5C1D1E245",
+              "BTTEnabled" : 1,
+              "BTTModifierMode" : 0,
+              "BTTAlternateModifierKeys" : 0,
+              "BTTOrder" : 0,
+              "BTTDisplayOrder" : 0,
+              "BTTMergeIntoTouchBarGroups" : 0
+            }
+          ],
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTTouchBarFreeSpaceAfterButton" : 5,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarButtonCornerRadius" : 6,
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarButtonColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+            "BTTTouchBarItemIconHeight" : 22
+          }
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
