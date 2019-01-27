@@ -33,11 +33,11 @@ Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 pip install yeelight
 ```
 * Insert the lightbulb IP address in the `yeelight_bulb.py` file
-* Open BTT and aelect the Custom Applescript Slider Widget in the Touchbar section
+* Open BTT and select Custom Applescript Slider Widget in the Touchbar section
 * Open its Predefined Action
 * Insert the path of the `yeelight_bulb.py` file into the Applescript 
 
 ---
 ## Other stuff
-* tip-tap trackpad gestures added. Switch between tabs in Safari
-* app switcher widget added to the Touchbar
+* Tip-Tap trackpad gestures added. Switch between tabs in Safari
+* App switcher widget added to the Touchbar
