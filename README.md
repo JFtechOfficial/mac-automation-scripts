@@ -7,9 +7,9 @@
 When launched:
 * Activate macro support for external keyboard
 * Set Final Cut Pro to fullscreen
-* Disable TrueTone and Night Shift on launch
+* Disable TrueTone on launch
 
- When Final Cut Pro is active a button gets added to the Touchbar. It can toggle TrueTone and Night Shift
+ When Final Cut Pro is active a new button gets added to the Touchbar. It can toggle TrueTone
 
 ### Requirements
 * [USB Overdrive](http://www.usboverdrive.com/USBOverdrive/News.html)
@@ -37,5 +37,5 @@ pip install yeelight
 * Insert the path of the `yeelight_bulb.py` file into the Applescript 
 
 ## Other stuff
-* tip-tap trackpad gesture added. It change tabs in Safari
+* tip-tap trackpad gestures added. Switch between tabs in Safari
 * app switcher widget added to the Touchbar
