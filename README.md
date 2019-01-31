@@ -26,7 +26,7 @@ When FCPX is in use:
 * Select Final Cut Pro in the Select Application sidebar
 * Select Quit Video Editing in the Touchbar section
 * Open its Predefined Action 
-* Select the Quit Video Editing file
+* Select the `Quit Video Editing` file
 
 ---
 ## Touchbar Yeelight brightness slider
