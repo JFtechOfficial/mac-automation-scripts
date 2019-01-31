@@ -11,7 +11,7 @@ When launched:
 
 When FCPX is in use:
 * ~~Disable TrueTone and Night Shift~~ now using [Shifty](https://shifty.natethompson.io/en/)
-* Adds a button to the Touch Bar. If pressed it quits Final Cut Pro and the macro support for external keyboard
+* Adds a button to the Touchbar. If pressed it quits Final Cut Pro and the macro support for external keyboard
 
 ### Requirements
 * [USB Overdrive](http://www.usboverdrive.com/USBOverdrive/News.html)
