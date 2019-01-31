@@ -1,0 +1,60 @@
+{
+  "BTTPresetName" : "Yeelight",
+  "BTTPresetUUID" : "D668ED1C-AB9A-426A-98AB-A77E5F13C6E1",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.FinalCut",
+      "BTTAppName" : "Final Cut Pro",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Final Cut Pro",
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 638,
+          "BTTTriggerTypeDescription" : "Custom Apple Script Slider Widget",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+          "BTTPredefinedActionType" : 195,
+          "BTTPredefinedActionName" : "Run Apple Script (async in background)",
+          "BTTInlineAppleScript" : "on bttWidgetSliderMoved(sliderValue)\r\t\r\tdo shell script \"\/usr\/local\/bin\/python3 \/Users\/YOUR_PATH\/yeelight_bulb.py \" & sliderValue\r\t\rend bttWidgetSliderMoved",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "482AD5C1-5BFD-4784-AA8B-18FE5B891C41",
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTAlternateModifierKeys" : 0,
+          "BTTOrder" : 1,
+          "BTTDisplayOrder" : 0,
+          "BTTMergeIntoTouchBarGroups" : 0,
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarButtonColor" : "0.000000, 150.399228, 255.000000, 255.000000",
+            "BTTTouchBarItemPlacement" : 2,
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+            "BTTTouchBarButtonCornerRadius" : 6,
+            "BTTTouchBarScriptUpdateInterval" : 0,
+            "BTTTBWidgetWidth" : 200,
+            "BTTTouchBarAppleScriptString" : "return \"0.5\"",
+            "BTTTBDrawKnobWithoutPadding" : false,
+            "BTTTouchBarSliderDrawKnobIconWhite" : false,
+            "BTTTouchBarSliderTriggerPercentage" : 0.050000000000000003,
+            "BTTTouchBarFreeSpaceAfterButton" : 5,
+            "BTTTouchBarSliderDrawKnobBackground" : true,
+            "BTTTouchBarShowRightIconForSlider" : true,
+            "BTTTouchBarAppleScriptUsePath" : 0,
+            "BTTTouchBarShowLeftIconForSlider" : true,
+            "BTTTouchBarItemPadding" : 0,
+            "BTTTouchBarItemIconHeight" : 22
+          }
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
