@@ -1,4 +1,5 @@
 # mac-automation-scripts 🤖
+*THIS REPO IS A WIP, THE FILES IN IT WILL FREQUENTLY BE UPDATED AND/OR CHANGED*
 * Install [BetterTouchTool](https://folivora.ai)
 * Import the `Default.bttpreset` file into BTT
 
