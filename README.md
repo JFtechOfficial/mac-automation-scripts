@@ -29,7 +29,7 @@ When FCPX is in use:
 * Select the `Quit Video Editing` file
 
 ---
-## Touchbar Yeelight brightness slider
+## Yeelight brightness Touchbar slider
 ### What does it do
 Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 
@@ -38,7 +38,7 @@ Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 
 ### Installation
 * Activate the LAN control for the lightbulb in the Yeelight app
-* Install the yeelight module
+* Open the Terminal app and install the yeelight module
 ```shell
 pip install yeelight
 ```
