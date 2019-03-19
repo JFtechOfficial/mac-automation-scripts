@@ -1,7 +1,7 @@
 # mac-automation-scripts 🤖
 *THIS REPO IS A WIP, THE FILES IN IT WILL FREQUENTLY BE UPDATED AND/OR CHANGED*
 
-All the automations below require [BetterTouchTool](https://folivora.aihttps://a.paddle.com/v2/click/30842/40874?link=1061)
+All the automations below require [BetterTouchTool](https://a.paddle.com/v2/click/30842/40874?link=1061)
 
 ## FCPX video editing mode
 ### What does it do
