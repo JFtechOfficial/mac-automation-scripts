@@ -34,7 +34,7 @@ When FCPX is in use:
 Add a slider to the Touchbar. It controls the brightness of your Yeelight bulb
 
 ### Requirements
-* [Python 3 & pip](https://www.python.org/downloads/)
+* [Python & pip](https://www.python.org/downloads/)
 
 ### Installation
 * Activate the LAN control for the lightbulb in the Yeelight app
