@@ -6,7 +6,7 @@ All the automations below require [BetterTouchTool](https://a.paddle.com/v2/clic
 ## FCPX video editing mode
 ### What does it do
 When launched:
-* Activate Final Cut Pro macro support for external keyboard *(will add macros and shortcuts to this repo as soon as I'm convinced with their usefulness)*
+* Activate [Final Cut Pro macro support for external keyboard](https://github.com/JFtechOfficial/FCPX-macro-keyboard)
 * Launch Final Cut Pro and set it to fullscreen
 
 When FCPX is in use:
@@ -14,11 +14,11 @@ When FCPX is in use:
 * Adds a button to the Touchbar. If pressed it quits Final Cut Pro and the macro support
 
 ### Requirements
-* ~~[USB Overdrive](http://www.usboverdrive.com/USBOverdrive/News.html)~~ now using Better Touch Tool
+* [USB Overdrive](http://www.usboverdrive.com/USBOverdrive/News.html)
 * [CommandPost](http://commandpost.io)
 
 ### Installation
-* ~~Remove USB Overdrive and CommandPost from login items~~
+* Remove USB Overdrive and CommandPost from login items
 * Unzip the `Video Editing.zip` file and move its content to the Application folder. You can edit this app using Automator.
 * Unzip the `Quit Video Editing.zip` file and move its content to any folder of your choice. You can edit this workflow using Automator.
 * Open BetterTouchTool
