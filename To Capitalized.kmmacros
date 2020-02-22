@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>597401350.00403798</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>CopyClipboard</string>
+						<key>TargetNamedClipboardRedundantDisplayName</key>
+						<string>Unnamed Named Clipboard</string>
+						<key>TargetNamedClipboardUID</key>
+						<string>75822CAE-1E0E-4321-A3F9-6256294386E6</string>
+						<key>TargetUseNamedClipboard</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>39B0A3A1-BB05-48D7-B8A8-A949F0C07A5A</string>
+						<key>RedundandDisplayName</key>
+						<string>Clipboard #2</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%NamedClipboard%Clipboard #2%</string>
+						<key>Variable</key>
+						<string>Cap</string>
+					</dict>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>SourceVariable</key>
+						<string>Cap</string>
+						<key>Text</key>
+						<string>#!/usr/local/bin/python3
+import string
+import sys
+import os
+
+# setKMVar :: String -&gt; String -&gt; KM IO ()
+
+def setKMVar(k, v):
+    p1 = """osascript -e 'tell application "Keyboard Maestro Engine" """
+    p2 = 'to setvariable "'
+    p3 = ' "to "'
+    p4 = '"'
+    p5 = "'"
+    command = p1 + p2 + k + p3 + v + p4 + p5
+    #print(command)
+    os.system(command)
+    #os.system("""osascript -e 'tell application "Keyboard Maestro Engine" to setvariable "Cap" to " """v""" "'""")
+    
+def main():
+    inputString = os.environ['KMVAR_Cap']
+    if (inputString.islower()):
+        #print(inputString.upper())
+        setKMVar('Cap', inputString.upper())
+    
+    elif (inputString.isupper()):
+        #print(string.capwords(inputString))
+        setKMVar('Cap', string.capwords(inputString))
+    
+    else:
+        #print(inputString.lower())
+        setKMVar('Cap', inputString.lower())
+
+main()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<false/>
+						<key>TrimResultsNew</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>JustDisplay</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetClipboardToText</string>
+						<key>TargetNamedClipboardRedundantDisplayName</key>
+						<string>Clipboard #2</string>
+						<key>TargetNamedClipboardUID</key>
+						<string>39B0A3A1-BB05-48D7-B8A8-A949F0C07A5A</string>
+						<key>TargetUseNamedClipboard</key>
+						<true/>
+						<key>Text</key>
+						<string>%Variable%Cap%</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>MacroActionType</key>
+						<string>ClipboardSwitcherMacroAction</string>
+						<key>Name</key>
+						<string>39B0A3A1-BB05-48D7-B8A8-A949F0C07A5A</string>
+						<key>RedundandDisplayName</key>
+						<string>Clipboard #2</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>MacroActionType</key>
+						<string>CopyClipboard</string>
+						<key>SourceNamedClipboardRedundantDisplayName</key>
+						<string>Unnamed Named Clipboard</string>
+						<key>SourceNamedClipboardUID</key>
+						<string>75822CAE-1E0E-4321-A3F9-6256294386E6</string>
+						<key>SourceUseNamedClipboard</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>597414831.312235</real>
+				<key>ModificationDate</key>
+				<real>597432292.04107201</real>
+				<key>Name</key>
+				<string>To Capitalized</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ElementCookie</key>
+						<integer>77</integer>
+						<key>ElementDeviceUsage</key>
+						<integer>6</integer>
+						<key>ElementDeviceUsagePage</key>
+						<integer>1</integer>
+						<key>ElementName</key>
+						<string>Apple Internal Keyboard / Trackpad #57</string>
+						<key>ElementProductID</key>
+						<integer>636</integer>
+						<key>ElementShortName</key>
+						<string>#57</string>
+						<key>ElementUsage</key>
+						<integer>57</integer>
+						<key>ElementUsagePage</key>
+						<integer>7</integer>
+						<key>ElementValue</key>
+						<integer>1</integer>
+						<key>ElementVendorID</key>
+						<integer>1452</integer>
+						<key>FireType</key>
+						<string>Tapped</string>
+						<key>MacroTriggerType</key>
+						<string>HID</string>
+						<key>Modifiers</key>
+						<integer>512</integer>
+						<key>TapCount</key>
+						<integer>2</integer>
+						<key>UseModifiers</key>
+						<true/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1428E313-4D71-4C5F-802D-2BDE868E160E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>68968D2A-94B0-41A7-8F5A-7207B833E2C0</string>
+		<key>UID</key>
+		<string>EA81928B-1466-4727-82D2-6AFEDC66444B</string>
+	</dict>
+</array>
+</plist>
