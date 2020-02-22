@@ -61,7 +61,7 @@ When FCPX is in use:
 * [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
 ### Installation
-* Import the `Editing Drive Alert.kmmacros` into Keyboard Maestro
+* Import the `Editing Drive Alert.kmmacros` file into Keyboard Maestro
 * Modify the macro to match your external dirve exact name
 
 ---
