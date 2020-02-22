@@ -1,4 +1,4 @@
-## Yeelight brightness Touchbar slider
+## Yeelight brightness TouchBar slider
 ### What does it do
 Add a slider to the TouchBar. It controls the brightness of your Yeelight bulb
 
