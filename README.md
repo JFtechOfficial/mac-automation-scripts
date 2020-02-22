@@ -20,6 +20,7 @@
 
 
 ### Requirements
+* [Python 3](https://www.python.org/downloads/)
 * [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
 ### Installation
