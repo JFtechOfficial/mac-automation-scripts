@@ -24,7 +24,7 @@
 * [Keyboard Maestro](https://www.keyboardmaestro.com/main/)
 
 ### Installation
-* Import the `To Capitalized.kmmacros` into Keyboard Maestro
+* Import the `To Capitalized.kmmacros` file into Keyboard Maestro
 
 ---
 
