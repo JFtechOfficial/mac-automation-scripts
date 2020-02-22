@@ -9,9 +9,12 @@ When launched:
 * [FiScript](https://github.com/Mortennn/FiScript)
 
 ### Installation
+* Unzip the `Template.zip` file
+* Move the `Template` folder somewhere "safe"
+* You may need to substitute the `Template` Final Cut Pro X library file with one generated from your copy of FCPX to match the version (if this is the case, rename it to `Template`)
 * Create a new Action in FiScript
 * Open the `New-Project-Folder-FiScript.sh` file with TextEdit
-* Insert the template folder path and the external storage path
+* Insert the template folder path and your external storage path
 * Copy/Paste its content into the `Script` textbox
 * Enable only the `Use on directories` and `Get notification when execution has finished` toggle 
 * Add icon, name and description if you want
@@ -48,10 +51,10 @@ When FCPX is in use:
 
 ---
 
-## Start FCPX Video Editing mode when drive is connected
+## Launch FCPX Video Editing mode when drive is connected
 
 ### What does it do
-* Open a Dialog box when your editing drive is connected. Clicking on `Continue` will launch FCPX Video Editing mode
+* Open a dialog box when your editing drive is connected. Clicking on `Continue` will launch FCPX Video Editing mode
 
 ### Requirements
 * [FCPX Video Editing mode](#FCPX-Video-Editing-mode)
