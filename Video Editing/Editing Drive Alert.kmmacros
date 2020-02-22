@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>597401350.00403798</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>MacroActionType</key>
+						<string>Alert</string>
+						<key>SoundPath</key>
+						<string></string>
+						<key>Text</key>
+						<string>Would you like to start Video Editing now?</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Video Editing Drive detected</string>
+					</dict>
+					<dict>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.automator.Video Editing</string>
+							<key>Name</key>
+							<string>Video Editing</string>
+							<key>NewFile</key>
+							<string>/Applications/Video Editing.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>597438076.782287</real>
+				<key>CustomIconData</key>
+				<string>KMEP-GenericApplication-/Applications/Final Cut Pro.app</string>
+				<key>ModificationDate</key>
+				<real>604065676.76972401</real>
+				<key>Name</key>
+				<string>Editing Drive Alert</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Attach</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>USBDevice</string>
+						<key>Name</key>
+						<string>USB to PCIE Bridge</string>
+						<key>TargetType</key>
+						<string>Named</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>71527DAB-2183-4576-83FD-A60E2C9F6357</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>68968D2A-94B0-41A7-8F5A-7207B833E2C0</string>
+		<key>UID</key>
+		<string>EA81928B-1466-4727-82D2-6AFEDC66444B</string>
+	</dict>
+</array>
+</plist>
