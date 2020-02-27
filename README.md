@@ -2,17 +2,17 @@
 *THIS REPO IS A WIP, THE FILES IN IT WILL FREQUENTLY BE UPDATED AND/OR CHANGED*
 
 
-## Video Editing 
+## Video Editing 🎬
 [This folder](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Video%20Editing) contains ALL the smart automation I use to streamline my work and improve my workflow when editing videos
 
 ---
 
-## Yeelight 
+## Yeelight 💡
 [This folder](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Yeelight) contains the scripts to add a new slider to your TouchBar to control the brightness of your Yeelight smart bulb 
 
 ---
 
-## System-wide Capitalize/lowercase/UPPERCASE Macro for MacOS
+## System-wide Capitalize/lowercase/UPPERCASE Macro for MacOS 🔠
 ### What does it do
 * trigger with Shift + double tap on CAPS-LOCK (similar to Google Android keyboard and iOS keyboard)
 * When triggered on selected text, cycles between Capitalized/lowercase/UPPERCASE
@@ -28,7 +28,7 @@
 
 ---
 
-## Other stuff
+## Other stuff 🌀
 * TipTap trackpad gestures added. Switch between tabs in any app
 * App switcher widget added to the TouchBar
 
