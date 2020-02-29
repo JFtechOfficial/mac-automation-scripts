@@ -15,11 +15,14 @@ When launched:
 * Create a new Action in FiScript
 * Open the `New-Project-Folder-FiScript.sh` file with TextEdit
 * Insert the template folder path and your external storage path
-* Copy/Paste its content into the `Script` textbox
+* Select all, copy, & paste into the `Script` textbox
 * Enable only the `Use on directories` and `Get notification when execution has finished` toggle 
 * Add icon, name and description if you want
 
 You can modify the script to do whatever you want pretty much. Do NOT modify the script using FiScript, please use any other text editor and then copy/paste ([here is why](https://github.com/Mortennn/FiScript/issues/15)). The script was tested in **bash**. Note that it would not run outside FiScirpt, since it uses the `$PATH` variable provided by FiScript (change that to allow terminal execution). If you modify the template, you may also need to modify the script. 
+
+
+If you want, you can customise the default icons of the folders found in the `Resources` directory with the [Folder Icons](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Video%20Editing/folder-icons) provided (*at a glance recognition*)
 
 ---
 
