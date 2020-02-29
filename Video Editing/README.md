@@ -22,7 +22,7 @@ When launched:
 You can modify the script to do whatever you want pretty much. Do NOT modify the script using FiScript, please use any other text editor and then copy/paste ([here is why](https://github.com/Mortennn/FiScript/issues/15)). The script was tested in **bash**. Note that it would not run outside FiScirpt, since it uses the `$PATH` variable provided by FiScript (change that to allow terminal execution). If you modify the template, you may also need to modify the script. 
 
 
-If you want, you can customise the default icons of the folders found in the `Resources` directory with the [Folder Icons](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Video%20Editing/folder-icons) provided (*at a glance recognition*)
+If you want, you can customise the default icons of the folders found in the `Resources` directory of the `Template` with the [Folder Icons](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Video%20Editing/folder-icons) provided (*at a glance recognition*)
 
 ---
 
