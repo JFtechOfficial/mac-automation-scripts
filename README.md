@@ -7,6 +7,11 @@
 
 ---
 
+## Low Power Mode 🔋
+[This folder](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Low%20Power%20Mode) contains the resouces to add a new app that toggle a macro to save battery life on your MacBook
+
+---
+
 ## Yeelight 💡
 [This folder](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Yeelight) contains the scripts to add a new slider to your TouchBar to control the brightness of your Yeelight smart bulb 
 
