@@ -8,7 +8,7 @@
 ---
 
 ## Low Power Mode 🔋
-[This folder](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Low%20Power%20Mode) contains the resouces to add a new app that toggle a macro to save battery life on your MacBook
+[This folder](https://github.com/JFtechOfficial/mac-automation-scripts/tree/master/Low%20Power%20Mode) contains the resouces to add a new app that toggles a macro in order to save battery life on your macbook
 
 ---
 
